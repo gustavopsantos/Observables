@@ -14,7 +14,7 @@
   "samples": [
     {
       "displayName": "Sample",
-      "path": "../Observables.Sample"
+      "path": "..\Observables.Sample"
     }
   ]
 }
