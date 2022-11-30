@@ -1,0 +1,16 @@
+{
+    "name": "Observables.Sample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7613a1f535858c84fa2f2cb515ea30f9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

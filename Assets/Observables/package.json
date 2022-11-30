@@ -1,0 +1,20 @@
+{
+  "name": "com.gustavopsantos.observables",
+  "displayName": "Observables",
+  "version": "1.0.0",
+  "unity": "2019.3",
+  "description": "Better event handling and property changed listening in a single object",
+  "keywords": [
+    "Observables"
+  ],
+  "license": "MIT",
+  "documentationUrl": "https://github.com/gustavopsantos/observables",
+  "changelogUrl": "https://github.com/gustavopsantos/observables/releases",
+  "licensesUrl": "https://github.com/gustavopsantos/observables/blob/main/LICENSE",
+  "samples": [
+    {
+      "displayName": "Sample",
+      "path": "../Observables.Sample"
+    }
+  ]
+}
