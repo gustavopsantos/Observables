@@ -9,6 +9,12 @@ namespace Observables
         private T _curr;
         private readonly List<ValueDelta<T>> _observers = new();
 
+        public T Value
+        {
+            get => _curr;
+            set => Push(value);
+        }
+
         public Observable()
         {
         }

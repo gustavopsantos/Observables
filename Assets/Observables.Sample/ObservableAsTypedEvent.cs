@@ -4,7 +4,6 @@ namespace Observables.Sample
 {
     public class ObservableAsTypedEvent : MonoBehaviour
     {
-        private int _tick;
         private readonly Observable<int> _onTick = new(0);
         private readonly CompositeDisposable _disposables = new();
 
@@ -22,7 +21,7 @@ namespace Observables.Sample
 
         private void InvokeEvent()
         {
-            _onTick.Push(_tick++);
+            _onTick.Value++;
         }
     }
 }
